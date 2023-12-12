@@ -4,4 +4,7 @@ Solar system made with HTML and CSS. It's kinda accurate -- not really -- it was
 ## Codepen Here
 https://codepen.io/eriaht/pen/JjxVByB?editors=1100
 <br/>
-![ezgif com-video-to-gif](https://github.com/eriaht/solar-system/assets/44909814/0118f59b-a5ac-4548-a54d-58cfd6976f50)
+<br/>
+<br/>
+![2023-12-12 04-51-59](https://github.com/eriaht/solar-system/assets/44909814/e05a7f45-58bf-4aa1-8eab-8a0473c3efda)
+
