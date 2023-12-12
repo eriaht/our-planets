@@ -27,7 +27,9 @@ html {
 /* Solar System */
 .solar-system {
     height: 500px;
+    width: 800px;
     position: relative;
+    border: 3px solid black;
 }
 
 .planet-box {
@@ -61,40 +63,48 @@ html {
 }
 
 .planet-path--mercury {
+    stroke: #c8d6e5;
     width: 125px;
     height: 55px;
 }
 
 .planet-path--venus {
+    stroke: #feca57;
     width: 181px;
     height: 75px;
 }
 .planet-path--earth {
+    stroke: #10ac84;
     width: 246px;
     height: 103px;
 }
 
 .planet-path--mars {
+    stroke: #ee5253;
     width: 289px;
     height: 141px;
 }
 
 .planet-path--jupiter {
+    stroke: #e15f41;
     width: 433px;
     height: 182px;
 }
 
 .planet-path--saturn {
+    stroke: #f5cd79;
     width: 586px;
     height: 259px;
 }
 
 .planet-path--uranus {
+    stroke: #7efff5;
     width: 664px;
     height: 303px;
 }
 
 .planet-path--neptune {
+    stroke: #1e90ff;
     width: 753px;
     height: 369px;
 }
