@@ -3,3 +3,4 @@ Solar system made with HTML and CSS. It's kinda accurate -- not really -- it was
 
 ## Codepen Here
 https://codepen.io/eriaht/pen/JjxVByB?editors=1100
+![ezgif com-video-to-gif](https://github.com/eriaht/solar-system/assets/44909814/0118f59b-a5ac-4548-a54d-58cfd6976f50)
