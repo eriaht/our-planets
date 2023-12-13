@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Solar System</title>
+    <title>Our Planets</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <h1 class="heading-primary">Our Solar System</h1>
-    <main class="content">
+    <h1 class="heading-primary">Our Planets</h1>
+    <div class="solar-system-container">
         <div class="solar-system">
+            <p class="disclaimer">*this is not to scale</p>
             <div class="sun"></div>
             <div class="planet-box">
                 <div class="planet planet--mercury"></div>
@@ -63,6 +64,59 @@
                 </svg>
             </div>
         </div>
-    </main>
+    </div>
+    <div class="planet-information">
+        <h1 class="heading-secondary m-bottom--medium">Planet Information</h1>
+        <div class="planet-cards">
+            <div class="planet-card planet-card--">
+                <p class="planet-card__heading">Mercury</p>
+                <img src="img/mercury.png" alt="The planet Mercury" class="planet-card__img">
+                <ul class="planet-card__details">
+                </ul>
+            </div>
+            <div class="planet-card planet-card--">
+                <p class="planet-card__heading">Venus</p>
+                <img src="img/venus.png" alt="The planet Venus" class="planet-card__img">
+                <ul class="planet-card__details">
+                </ul>
+            </div>
+            <div class="planet-card planet-card--">
+                <p class="planet-card__heading">Earth</p>
+                <img src="img/earth.png" alt="The planet Earth" class="planet-card__img">
+                <ul class="planet-card__details">
+                </ul>
+            </div>
+            <div class="planet-card planet-card--">
+                <p class="planet-card__heading">Mars</p>
+                <img src="img/mars.png" alt="The planet Mars" class="planet-card__img">
+                <ul class="planet-card__details">
+                </ul>
+            </div>
+            <div class="planet-card planet-card--">
+                <p class="planet-card__heading">Jupiter</p>
+                <img src="img/jupiter.png" alt="The planet Jupiter" class="planet-card__img">
+                <ul class="planet-card__details">
+                </ul>
+            </div>
+            <div class="planet-card planet-card--saturn">
+                <p class="planet-card__heading">Saturn</p>
+                <img src="img/saturn.png" alt="The planet Saturn" class="planet-card__img planet-card__img--saturn">
+                <ul class="planet-card__details">
+                </ul>
+            </div>
+            <div class="planet-card planet-card--">
+                <p class="planet-card__heading">Uranus</p>
+                <img src="img/uranus.png" alt="The planet Uranus" class="planet-card__img">
+                <ul class="planet-card__details">
+                </ul>
+            </div>
+            <div class="planet-card planet-card--">
+                <p class="planet-card__heading">Neptune</p>
+                <img src="img/neptune.png" alt="The planet Neptune" class="planet-card__img">
+                <ul class="planet-card__details">
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
