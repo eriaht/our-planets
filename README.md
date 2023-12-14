@@ -6,15 +6,25 @@ Orbit the sun with HTML and CSS. The model is kind of accurate—not really; how
 Earth will revolve around the sun in 10s in this model.
 <br/>
 Planet       | Revolution period
+<br/>
 -----------------------------------
+<br/>
 Mercury      | 87.97 days
+<br/>
 Venus        | 224.7 days
+<br/>
 Earth        | 365.26 days
+<br/>
 Mars         | 1.88 years
+<br/>
 Jupiter      | 11.86 years
+<br/>
 Saturn       | 29.46 years
+<br/>
 Uranus       | 84.01 years
+<br/>
 Neptune      | 164.79 years
+<br/>
 
 ## Codepen Here
 https://codepen.io/eriaht/pen/JjxVByB?editors=1100
