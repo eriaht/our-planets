@@ -3,25 +3,25 @@ Orbit the sun with HTML and CSS. The model is kind of accurate—not really; how
 
 
 <br/>
-Planet&emsp;&emsp;| Revolution period
+Planet&emsp;&emsp;&emsp;&emsp;| Revolution period
 <br/>
------------------------------------
+<hr/>
 <br/>
-Mercury&emsp;&emsp;| 87.97 days
+Mercury&emsp;&emsp;&emsp;&emsp;| 87.97 days
 <br/>
-Venus&emsp;&emsp;| 224.7 days
+Venus&emsp;&emsp;&emsp;&emsp;| 224.7 days
 <br/>
-Earth&emsp;&emsp;| 365.26 days
+Earth&emsp;&emsp;&emsp;&emsp;| 365.26 days
 <br/>
-Mars&emsp;&emsp;| 1.88 years
+Mars&emsp;&emsp;&emsp;&emsp;| 1.88 years
 <br/>
-Jupiter&emsp;&emsp;| 11.86 years
+Jupiter&emsp;&emsp;&emsp;&emsp;| 11.86 years
 <br/>
-Saturn&emsp;&emsp;| 29.46 years
+Saturn&emsp;&emsp;&emsp;&emsp;| 29.46 years
 <br/>
-Uranus&emsp;&emsp;| 84.01 years
+Uranus&emsp;&emsp;&emsp;&emsp;| 84.01 years
 <br/>
-Neptune&emsp;&emsp;| 164.79 years
+Neptune&emsp;&emsp;&emsp;&emsp;| 164.79 years
 <br/>
 
 ## Codepen Here
