@@ -6,5 +6,6 @@ https://codepen.io/eriaht/pen/JjxVByB?editors=1100
 <br/>
 <br/>
 <br/>
-![2023-12-12 04-51-59](https://github.com/eriaht/solar-system/assets/44909814/e05a7f45-58bf-4aa1-8eab-8a0473c3efda)
+![2023-12-14 04-59-42](https://github.com/eriaht/our-planets/assets/44909814/325d5127-fde5-42a9-8752-6060976ee8b3)
+
 
