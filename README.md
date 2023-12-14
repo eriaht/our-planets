@@ -1,5 +1,5 @@
 # Solar System Model with HTML and CSS Using SVG Paths
-Here, our planets are orbiting the sun, made with HTML and CSS. It's kind of accurate—not really; however, it was fun to make. I learned how SVG offset paths work in the process of making this. Don't bother waiting around to watch Neptune complete a single orbit; that will take approximately 27 minutes.
+Orbit the sun with HTML and CSS. The model is kind of accurate—not really; however, it was fun to make. I learned how SVG offset paths work in the process of making this. Don't bother waiting around to watch Neptune complete a single orbit; that will take approximately 27 minutes.
 
 ## Codepen Here
 https://codepen.io/eriaht/pen/JjxVByB?editors=1100
