@@ -15,7 +15,7 @@ Orbit the sun with HTML and CSS. The model is kind of accurate—not really; how
 | Uranus  | 84.01 years
 | Neptune | 164.79 years
 
-* Source for revolution period data https://www.exploratorium.edu/explore/solar-system/age
+*Source for revolution period data https://www.exploratorium.edu/explore/solar-system/age*
 
 ### Codepen Here
 https://codepen.io/eriaht/pen/JjxVByB?editors=1100
