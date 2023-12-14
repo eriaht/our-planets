@@ -228,6 +228,10 @@ html {
     animation: orbit 1649s infinite linear;
 }
 
+.planet {
+    animation-direction: reverse;
+}
+
 /* Planet Information */
 .planet-information {
     max-width: 1500px;
