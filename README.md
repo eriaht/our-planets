@@ -2,7 +2,7 @@
 Orbit the sun with HTML and CSS. The model is kind of accurate—not really; however, it was fun to make. I learned how SVG offset paths work in the process of making this. Don't bother waiting around to watch Neptune complete a single orbit; that will take approximately 27 minutes.
 
 ### How I got the revolution times in seconds for css animation
-10s for every 365.26 days
+10 seconds for every 365.26 days
 
 | Planet | Revolution period
 | --- | ---|
