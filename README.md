@@ -1,8 +1,8 @@
 # Solar System Model with HTML and CSS Using SVG Paths
-Orbit the sun with HTML and CSS. The model is kind of accurate—not really; however, it was fun to make. I learned how SVG offset paths work in the process of making this. Don't bother waiting around to watch Neptune complete a single orbit; that will take approximately 27 minutes.
+Orbit the Sun with HTML and CSS. The model is kind of accurate—not really; however, it was fun to make. I learned how SVG offset paths work in the process of making this. Don't bother waiting around to watch Neptune complete a single orbit; that will take approximately 27 minutes.
 
 ### How I got the revolution times in seconds for css animation
-10s for every 365.26 days
+10 seconds for every 365.26 days
 
 | Planet | Revolution period
 | --- | ---|
@@ -14,6 +14,8 @@ Orbit the sun with HTML and CSS. The model is kind of accurate—not really; how
 | Saturn  | 29.46 years
 | Uranus  | 84.01 years
 | Neptune | 164.79 years
+
+*Source for revolution period data https://www.exploratorium.edu/explore/solar-system/age*
 
 ### Codepen Here
 https://codepen.io/eriaht/pen/JjxVByB?editors=1100
