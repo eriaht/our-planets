@@ -18,9 +18,14 @@ html {
     background-color: var(--color-dark--1);
 }
 
+body {
+    box-sizing: inherit;
+    overflow-x: hidden;
+}
+
 /* Typography */
 .heading-primary {
-    font-weight: 100;
+    /* font-weight: 100; */
     font-size: 5rem;
     text-transform: uppercase;
     text-align: center;
@@ -37,6 +42,66 @@ html {
     color: #fff;
     bottom: 2.5px;
     right: 5px;
+}
+
+/* Splash Screen */
+.splash-container {
+    height: 100%;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.splash {
+    font-weight: 400;
+    font-size: 5vw;
+    background-color: var(--color-dark--1);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove-splash {
+    animation: remove-splash-container ease-out;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;  
+}
+
+.splash__text {
+    padding: 30px;
+    color: var(--color-primary);
+    animation: slide-right-up 4s;
+}
+
+@keyframes remove-splash-container {
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes slide-right-up {
+    0% {
+        transform: translateX(-30%);
+        opacity: 0;
+    }
+
+    58% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
 }
 
 /* Layout */
@@ -148,7 +213,7 @@ html {
     width: 10px;
     offset-path: path("m123.22,20.91c.98,13.5-25.69,26.44-59.57,28.9C29.77,52.26,1.51,43.31.53,29.81-.45,16.3,26.22,3.36,60.1.91s62.14,6.5,63.12,20Z");
 
-    animation: orbit 2.4s infinite linear;
+    animation: orbit calc((87.97 / 365.26) * 10s) infinite linear;
 }
 
 .planet--venus {
@@ -159,7 +224,7 @@ html {
     width: 12px;
     offset-path: path("m178.94,29.34c1.39,19.17-37.42,37.61-86.68,41.18C42.99,74.1,1.93,61.46.54,42.29-.85,23.12,37.95,4.68,87.22,1.1c49.26-3.57,90.33,9.07,91.72,28.24Z");
 
-    animation: orbit 6.2s infinite linear;
+    animation: orbit calc((224.7 / 365.26) * 10s) infinite linear;
 }
 
 .planet--earth {
@@ -181,7 +246,7 @@ html {
     width: 11px;
     offset-path: path("m286.85,57.73c2.68,36.89-59.24,71.45-138.29,77.18C69.51,140.64,3.26,115.38.58,78.49-2.09,41.6,59.82,7.05,138.87,1.31s145.3,19.52,147.98,56.41Z");
 
-    animation: orbit 18.8s infinite linear;
+    animation: orbit calc(1.88 * 10s) infinite linear;
 }
 
 .planet--jupiter {
@@ -192,7 +257,7 @@ html {
     width: 24px;
     offset-path: path("m430.54,73.2c3.48,47.99-89.94,93.88-208.67,102.49C103.14,184.3,4.08,152.38.59,104.39-2.89,56.4,90.54,10.52,209.27,1.9c118.73-8.61,217.8,23.31,221.28,71.3Z");
 
-    animation: orbit 118.7s infinite linear;
+    animation: orbit calc(11.86 * 10s) infinite linear;
 }
 
 .planet--saturn {
@@ -203,7 +268,7 @@ html {
     width: 64px;
     offset: path("m584.23,105.98c5,68.95-121.58,134.32-282.74,146.01C140.34,263.67,5.64,217.26.64,148.31-4.36,79.36,122.23,13.99,283.38,2.3c161.15-11.69,295.85,34.73,300.85,103.67Z");
 
-    animation: orbit 294.8s infinite linear;
+    animation: orbit calc(29.46 * 10s) infinite linear;
 }
 
 .planet--uranus {
@@ -214,7 +279,7 @@ html {
     width: 16px;
     offset: path("m661.97,124.31c5.84,80.53-137.46,156.55-320.07,169.8C159.29,307.35,6.51,252.81.67,172.28-5.17,91.75,138.13,15.73,320.74,2.48c182.61-13.25,335.38,41.3,341.22,121.83Z");
 
-    animation: orbit 840.7s infinite linear;
+    animation: orbit calc(84.01 * 10s) infinite linear;
 }
 
 .planet--neptune {
@@ -225,7 +290,7 @@ html {
     width: 16px;
     offset: path("m750.46,154.74c7.19,99.06-154.82,191.53-361.86,206.55C181.57,376.31,7.92,308.18.73,209.12-6.46,110.07,155.55,17.59,362.59,2.57c207.03-15.02,380.69,53.11,387.88,152.16Z");
 
-    animation: orbit 1649s infinite linear;
+    animation: orbit calc(164.79 * 10s) infinite linear;
 }
 
 .planet {
@@ -242,8 +307,11 @@ html {
 .planet-cards {
     display: grid;
 
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto); */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
+    grid-auto-rows: auto;
     row-gap: 25px;
     column-gap: 25px;
 }
