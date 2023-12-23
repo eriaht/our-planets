@@ -4,7 +4,7 @@ Orbit the Sun with HTML and CSS. The model is kind of accurate—not really; how
 ### How I got the revolution times in seconds for css animation
 10 seconds for every 365.26 days
 
-| Planet | Revolution period | CSS Revolution time
+| Planet | Revolution period | CSS Revolution period
 | --- | --- | --- |
 | Mercury | 87.97 days  | (87.97 / 365.26) * 10s
 | Venus   | 224.7 days  | (224.7 / 365.26) * 10s
