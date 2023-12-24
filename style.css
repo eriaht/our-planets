@@ -4,7 +4,7 @@
 
     --color-dark--1: #3d3d3d;
     
-    --color-grey--1: #57606f;
+    --color-grey--1: #4e5563;
 }
 
 *, *::before, *::after {
@@ -21,6 +21,7 @@ html {
 body {
     box-sizing: inherit;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /* Typography */
@@ -299,7 +300,7 @@ body {
 
 /* Planet Information */
 .planet-information {
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -336,7 +337,7 @@ body {
 
 .planet-card__img--saturn {
     height: auto;
-    width: 460px;
+    width: 100%;
 }
 
 /* Utilities */
