@@ -17,9 +17,4 @@ Orbit the Sun with HTML and CSS. The model is kind of accurate—not really; how
 
 *Source for revolution period data https://www.exploratorium.edu/explore/solar-system/age*
 
-<br/>
-<br/>
-<br/>
-![2023-12-14 04-59-42](https://github.com/eriaht/our-planets/assets/44909814/325d5127-fde5-42a9-8752-6060976ee8b3)
-
 
